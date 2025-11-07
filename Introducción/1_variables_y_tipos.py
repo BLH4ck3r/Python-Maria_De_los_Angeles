@@ -44,22 +44,6 @@ a = b = c = "Python"
 print(a, b, c)
 
 
-# -----------------------------
-# Reglas para nombres de variables
-# -----------------------------
-# ✅ Empiezan con letra o guion bajo (_)
-# ✅ Pueden contener números después
-# ❌ No pueden empezar con número
-# ❌ No pueden contener espacios ni caracteres especiales
-
-# Ejemplo válido:
-mi_variable = "correcto"
-
-# Ejemplo inválido (esto da error si se ejecuta):
-# 1variable = 5
-# mi variable = "incorrecto"
-# print(mi variable)
-
 
 # -----------------------------
 # Tipos de datos más comunes
@@ -132,9 +116,9 @@ print("El año que viene tendrás:", edad + 1)
 # Mini práctica
 # -----------------------------
 """
-1️⃣ Pide al usuario su nombre, edad y altura.
-2️⃣ Calcula cuántos años tendrá dentro de 5 años.
-3️⃣ Muestra todo en una frase.
+Pide al usuario su nombre, edad y altura
+Calcula cuántos años tendrá dentro de 5 años.
+Muestra todo en una frase.
 """
 
 nombre = input("Nombre: ")
